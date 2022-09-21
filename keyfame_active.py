@@ -11,7 +11,7 @@ def main(context):
         for keyframe in keyframePoints:
             print('{}:({}),'.format(int(keyframe.co[0]),round(keyframe.co[1],2)), end='')
             KEYFRAME_POINTS_ARRAY.append(keyframe.co[1])
-        print('')
+        print('\n')
     return KEYFRAME_POINTS_ARRAY
 
 
